@@ -43,12 +43,10 @@ def main():
     size = 1
     x = 0
     y = 0
-    angle = np.pi / 2  # 90 degrees in radians
+    angle = np.pi / 2  
 
-    # Draw the Pythagorean Tree
     draw_pythagorean_tree(ax, x, y, angle, size, recursion_level)
 
-    # Show the plot
     plt.show()
 
 if __name__ == "__main__":
